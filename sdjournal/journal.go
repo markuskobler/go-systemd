@@ -24,6 +24,7 @@
 // [1] http://www.freedesktop.org/software/systemd/man/sd-journal.html
 package sdjournal
 
+// #cgo pkg-config: libsystemd-journal
 // #include <systemd/sd-journal.h>
 // #include <systemd/sd-id128.h>
 // #include <stdlib.h>
